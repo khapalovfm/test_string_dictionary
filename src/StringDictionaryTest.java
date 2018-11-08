@@ -58,7 +58,7 @@ public class StringDictionaryTest {
 
         System.out.println(dictionary.getDictionary());
 
-        StringDictionary dict = new StringDictionary(readFileAsString("/home/phil/stepic_java/stepic_java_webserver/untitled/src/text.txt"));
+        StringDictionary dict = new StringDictionary(readFileAsString("/untitled/src/text.txt"));
 
         System.out.println(dict.getDictionary());
 
